@@ -1,0 +1,89 @@
+.search-input:focus {
+    background-color: black;
+    border-width: 1px;
+    border-color: rgb(26, 145, 218);
+    outline: none;
+}
+
+.search-input:focus+svg path {
+
+    stroke: rgb(26, 145, 218);
+}
+
+@media screen and (min-width:1281px) {
+    .sidebar {
+        padding-right: 32px;
+    }
+
+    div.acname,
+    img.acname {
+        display: flex;
+        flex-direction: column;
+    }
+
+    span.icname {
+        display: inline;
+    }
+
+    .li-item:hover {
+        background-color: #16181c;
+    }
+
+    li.btname {
+        display: block;
+    }
+
+    li.tweet {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1005px) {
+    div.third {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:518px) {
+    div.settings-2 {
+        display: block;
+    }
+
+    div.header {
+        display: none;
+    }
+
+    div.top {
+        padding-top: 1rem;
+    }
+
+    div.first {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    div.main {
+        display: block;
+    }
+}
+
+
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+    display:none;
+  }
+  
+.scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    background:black;
+    border:1px solid gray;
+    border-radius:10px;
+  }
+  
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius:10px;
+  }
